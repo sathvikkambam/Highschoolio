@@ -7,5 +7,7 @@ public class Enemy
         health = h;
         damage = d;
     }
-    public void attack
+    public void attackPlayer()
+    {
+        if(
 }
