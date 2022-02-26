@@ -7,8 +7,8 @@ public class Player
     public Player()
     {
         potions = 1;
-        armor = new Item(2, "basic");
-        weapon = new Item(2, "basic");
+        armor = new Item(2, "basic", "armor");
+        weapon = new Item(2, "basic", "weapon");
         weapon = "basic";  
     }
     public void usePot()
