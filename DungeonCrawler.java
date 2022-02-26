@@ -27,7 +27,5 @@ public class DungeonCrawler
              System.out.println();
         }
         System.out.println("# is the player/n! is the enemy\n$ is where the player needs to reach");
-
-        
-    
+    }   
 }
