@@ -7,4 +7,5 @@ public class Enemy
         health = h;
         damage = d;
     }
+    public void attack
 }
