@@ -7,9 +7,11 @@ public class Enemy
         health = h;
         damage = d;
     }
-    public void attackPlayer()
+    public void attackPlayer(Player p)
     {
-        if(Player.weapon.stat() > Enemy.damage)
+        if((p.weapon).stat() > damage)
         {
-            Enemy.health=Enemy.health-Player.damage;
+            health=health-(p.weapon).stat();
+        }
+    }
 }
