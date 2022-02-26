@@ -13,7 +13,7 @@ public class DungeonCrawler
         Thread.sleep(500);
         System.out.println("Your only way to escape the hostile aliens is to reach the rocket launch site");
         Thread.sleep(500);
-        System.out.println("As you crawl out the spacehsip you see aliens with sabers approaching you... ");
+        System.out.println("As you crawl out the spacehsip you see an alien with a saber approaching you... ");
         Thread.sleep(300);
         
     
