@@ -9,5 +9,7 @@ public class Enemy
     }
     public void attackPlayer()
     {
-        if(
+        if(Player.weapon.stat() > Enemy.damage)
+        {
+            Enemy.health=Enemy.health-Player.damage;
 }
