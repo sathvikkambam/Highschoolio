@@ -5,6 +5,6 @@ public class Enemy
     public Enemy(int h, int d)
     {
         health = h;
-        damage = d;
+        damage = d; 
     }
 }
